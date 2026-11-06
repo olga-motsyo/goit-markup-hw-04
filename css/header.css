@@ -1,0 +1,59 @@
+.header-menu-link,
+.address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.address-link {
+  font-style: normal;
+  color: #434455;
+}
+
+.logo {
+  line-height: 1.33333;
+  margin-right: 76px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-address {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.address-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
